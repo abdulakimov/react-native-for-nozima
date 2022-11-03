@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "expo-app-for-nozima",
+    "name": "Nozima",
     "slug": "expo-app-for-nozima",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#97BDFE"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.xurshidbek.expoappfornozima"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dd463b90-a48e-401c-ad8a-1359fcb8f772"
+      }
     }
   }
 }
